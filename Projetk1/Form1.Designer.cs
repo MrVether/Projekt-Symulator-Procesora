@@ -106,7 +106,7 @@ namespace Projetk1
             this.Okno_Błędu.Name = "Okno_Błędu";
             this.Okno_Błędu.Size = new System.Drawing.Size(420, 24);
             this.Okno_Błędu.TabIndex = 5;
-            this.Okno_Błędu.Text = "Brak błędu";
+            this.Okno_Błędu.Text = "BRAK BŁĘDÓW";
             // 
             // MOV_AX_BX
             // 

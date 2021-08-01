@@ -23,7 +23,7 @@ namespace Projetk1
             BX_Text.Text = "0000";
             CX_Text.Text = "0000";
             DX_Text.Text = "0000";
-            Okno_Błędu.Text = "Wartości wyzerowane";
+            Okno_Błędu.Text = "WARTOŚCI WYZEROWANE";
         }
         private void MOV_AX_BX_Click(object sender, EventArgs e)
         {
@@ -34,13 +34,13 @@ namespace Projetk1
                 if (!CharsArray.Contains(Char_Test))
                 {
                     AX_Text.Text = "0000";
-                    Okno_Błędu.Text = "WARTOŚCI ZAPISZ W SYSTEMIE SZESNASTKOWYM";
+                    Okno_Błędu.Text = "WYMAGANY SYSTEM SZESNASTKOWY";
                     CheckChars = false;
                 }
                 else if (CheckChars == true)
                 {
                     AX_Text.Text = BX_Text.Text;
-                    Okno_Błędu.Text = "Brak błędu";
+                    Okno_Błędu.Text = "BRAK BŁĘDÓW";
                 }
             }
 
@@ -55,13 +55,13 @@ namespace Projetk1
                 if (!CharsArray.Contains(Char_Test))
                 {
                     CX_Text.Text = "0000";
-                    Okno_Błędu.Text = "WARTOŚCI ZAPISZ W SYSTEMIE SZESNASTKOWYM";
+                    Okno_Błędu.Text = "WYMAGANY SYSTEM SZESNASTKOWY";
                     CheckChars = false;
                 }
                 else if (CheckChars == true)
                 {
                     AX_Text.Text = CX_Text.Text;
-                    Okno_Błędu.Text = "Brak błędu";
+                    Okno_Błędu.Text = "BRAK BŁĘDÓW";
                 }
             }
         }
@@ -75,13 +75,13 @@ namespace Projetk1
                 if (!CharsArray.Contains(Char_Test))
                 {
                     DX_Text.Text = "0000";
-                    Okno_Błędu.Text = "WARTOŚCI ZAPISZ W SYSTEMIE SZESNASTKOWYM";
+                    Okno_Błędu.Text = "WYMAGANY SYSTEM SZESNASTKOWY";
                     CheckChars = false;
                 }
                 else if (CheckChars == true)
                 {
                     AX_Text.Text = DX_Text.Text;
-                    Okno_Błędu.Text = "Brak błędu";
+                    Okno_Błędu.Text = "BRAK BŁĘDÓW";
                 }
             }
         }
@@ -95,13 +95,13 @@ namespace Projetk1
                 if (!CharsArray.Contains(Char_Test))
                 {
                     AX_Text.Text = "0000";
-                    Okno_Błędu.Text = "WARTOŚCI ZAPISZ W SYSTEMIE SZESNASTKOWYM";
+                    Okno_Błędu.Text = "WYMAGANY SYSTEM SZESNASTKOWY";
                     CheckChars = false;
                 }
                 else if (CheckChars == true)
                 {
                     BX_Text.Text = AX_Text.Text;
-                    Okno_Błędu.Text = "Brak błędu";
+                    Okno_Błędu.Text = "BRAK BŁĘDÓW";
                 }
             }
         }
@@ -115,13 +115,13 @@ namespace Projetk1
                 if (!CharsArray.Contains(Char_Test))
                 {
                     CX_Text.Text = "0000";
-                    Okno_Błędu.Text = "WARTOŚCI ZAPISZ W SYSTEMIE SZESNASTKOWYM";
+                    Okno_Błędu.Text = "WYMAGANY SYSTEM SZESNASTKOWY";
                     CheckChars = false;
                 }
                 else if (CheckChars == true)
                 {
                     BX_Text.Text = CX_Text.Text;
-                    Okno_Błędu.Text = "Brak błędu";
+                    Okno_Błędu.Text = "BRAK BŁĘDÓW";
                 }
             }
         }
@@ -135,13 +135,13 @@ namespace Projetk1
                 if (!CharsArray.Contains(Char_Test))
                 {
                     DX_Text.Text = "0000";
-                    Okno_Błędu.Text = "WARTOŚCI ZAPISZ W SYSTEMIE SZESNASTKOWYM";
+                    Okno_Błędu.Text = "WYMAGANY SYSTEM SZESNASTKOWY";
                     CheckChars = false;
                 }
                 else if (CheckChars == true)
                 {
                     BX_Text.Text = DX_Text.Text;
-                    Okno_Błędu.Text = "Brak błędu";
+                    Okno_Błędu.Text = "BRAK BŁĘDÓW";
                 }
             }
         }
@@ -155,13 +155,13 @@ namespace Projetk1
                 if (!CharsArray.Contains(Char_Test))
                 {
                     AX_Text.Text = "0000";
-                    Okno_Błędu.Text = "WARTOŚCI ZAPISZ W SYSTEMIE SZESNASTKOWYM";
+                    Okno_Błędu.Text = "WYMAGANY SYSTEM SZESNASTKOWY";
                     CheckChars = false;
                 }
                 else if (CheckChars == true)
                 {
                     CX_Text.Text = AX_Text.Text;
-                    Okno_Błędu.Text = "Brak błędu";
+                    Okno_Błędu.Text = "BRAK BŁĘDÓW";
                 }
             }
         }
@@ -175,13 +175,13 @@ namespace Projetk1
                 if (!CharsArray.Contains(Char_Test))
                 {
                     BX_Text.Text = "0000";
-                    Okno_Błędu.Text = "WARTOŚCI ZAPISZ W SYSTEMIE SZESNASTKOWYM";
+                    Okno_Błędu.Text = "WYMAGANY SYSTEM SZESNASTKOWY";
                     CheckChars = false;
                 }
                 else if (CheckChars == true)
                 {
                     CX_Text.Text = BX_Text.Text;
-                    Okno_Błędu.Text = "Brak błędu";
+                    Okno_Błędu.Text = "BRAK BŁĘDÓW";
                 }
             }
         }
@@ -195,13 +195,13 @@ namespace Projetk1
                 if (!CharsArray.Contains(Char_Test))
                 {
                     DX_Text.Text = "0000";
-                    Okno_Błędu.Text = "WARTOŚCI ZAPISZ W SYSTEMIE SZESNASTKOWYM";
+                    Okno_Błędu.Text = "WYMAGANY SYSTEM SZESNASTKOWY";
                     CheckChars = false;
                 }
                 else if (CheckChars == true)
                 {
                     CX_Text.Text = DX_Text.Text;
-                    Okno_Błędu.Text = "Brak błędu";
+                    Okno_Błędu.Text = "BRAK BŁĘDÓW";
                 }
             }
         }
@@ -215,13 +215,13 @@ namespace Projetk1
                 if (!CharsArray.Contains(Char_Test))
                 {
                     AX_Text.Text = "0000";
-                    Okno_Błędu.Text = "WARTOŚCI ZAPISZ W SYSTEMIE SZESNASTKOWYM";
+                    Okno_Błędu.Text = "WYMAGANY SYSTEM SZESNASTKOWY";
                     CheckChars = false;
                 }
                 else if (CheckChars == true)
                 {
                     DX_Text.Text = AX_Text.Text;
-                    Okno_Błędu.Text = "Brak błędu";
+                    Okno_Błędu.Text = "BRAK BŁĘDÓW";
                 }
             }
         }
@@ -235,13 +235,13 @@ namespace Projetk1
                 if (!CharsArray.Contains(Char_Test))
                 {
                     BX_Text.Text = "0000";
-                    Okno_Błędu.Text = "WARTOŚCI ZAPISZ W SYSTEMIE SZESNASTKOWYM";
+                    Okno_Błędu.Text = "WYMAGANY SYSTEM SZESNASTKOWY";
                     CheckChars = false;
                 }
                 else if (CheckChars == true)
                 {
                     DX_Text.Text = BX_Text.Text;
-                    Okno_Błędu.Text = "Brak błędu";
+                    Okno_Błędu.Text = "BRAK BŁĘDÓW";
                 }
             }
         }
@@ -255,13 +255,13 @@ namespace Projetk1
                 if (!CharsArray.Contains(Char_Test))
                 {
                     CX_Text.Text = "0000";
-                    Okno_Błędu.Text = "WARTOŚCI ZAPISZ W SYSTEMIE SZESNASTKOWYM";
+                    Okno_Błędu.Text = "WYMAGANY SYSTEM SZESNASTKOWY";
                     CheckChars = false;
                 }
                 else if (CheckChars == true)
                 {
                     DX_Text.Text = CX_Text.Text;
-                    Okno_Błędu.Text = "Brak bledu";
+                    Okno_Błędu.Text = "BRAK BŁĘDÓW";
                 }
             }
         }
@@ -276,7 +276,7 @@ namespace Projetk1
                     if (!CharsArray.Contains(Char_Test))
                     {
                         AX_Text.Text = "0000";
-                        Okno_Błędu.Text = "WARTOŚCI ZAPISZ W SYSTEMIE SZESNASTKOWYM";
+                        Okno_Błędu.Text = "WYMAGANY SYSTEM SZESNASTKOWY";
                         CheckChars = false;
 
                     }
@@ -284,17 +284,17 @@ namespace Projetk1
                     {
                         CheckChars = false;
                         BX_Text.Text = "0000";
-                        Okno_Błędu.Text = "WARTOŚCI ZAPISZ W SYSTEMIE SZESNASTKOWYM";
+                        Okno_Błędu.Text = "WYMAGANY SYSTEM SZESNASTKOWY";
 
                     }
                 }
             if (CheckChars == true)
             {
-                string Wartosc;
-                Wartosc = AX_Text.Text;
+                string Temp;
+                Temp = AX_Text.Text;
                 AX_Text.Text = BX_Text.Text;
-                BX_Text.Text = Wartosc;
-                Okno_Błędu.Text = "Brak bledu";
+                BX_Text.Text = Temp;
+                Okno_Błędu.Text = "BRAK BŁĘDÓW";
             }
         }
 
@@ -308,7 +308,7 @@ namespace Projetk1
                     if (!CharsArray.Contains(Char_Test))
                     {
                         AX_Text.Text = "0000";
-                        Okno_Błędu.Text = "WARTOŚCI ZAPISZ W SYSTEMIE SZESNASTKOWYM";
+                        Okno_Błędu.Text = "WYMAGANY SYSTEM SZESNASTKOWY";
                         CheckChars = false;
 
                     }
@@ -316,17 +316,17 @@ namespace Projetk1
                     {
                         CheckChars = false;
                         CX_Text.Text = "0000";
-                        Okno_Błędu.Text = "WARTOŚCI ZAPISZ W SYSTEMIE SZESNASTKOWYM";
+                        Okno_Błędu.Text = "WYMAGANY SYSTEM SZESNASTKOWY";
 
                     }
                 }
             if (CheckChars == true)
             {
-                string Wartosc;
-                Wartosc = AX_Text.Text;
+                string Temp;
+                Temp = AX_Text.Text;
                 AX_Text.Text = CX_Text.Text;
-                CX_Text.Text = Wartosc;
-                Okno_Błędu.Text = "Brak bledu";
+                CX_Text.Text = Temp;
+                Okno_Błędu.Text = "BRAK BŁĘDÓW";
             }
         }
 
@@ -340,7 +340,7 @@ namespace Projetk1
                     if (!CharsArray.Contains(Char_Test))
                     {
                         AX_Text.Text = "0000";
-                        Okno_Błędu.Text = "WARTOŚCI ZAPISZ W SYSTEMIE SZESNASTKOWYM";
+                        Okno_Błędu.Text = "WYMAGANY SYSTEM SZESNASTKOWY";
                         CheckChars = false;
 
                     }
@@ -348,17 +348,17 @@ namespace Projetk1
                     {
                         CheckChars = false;
                         DX_Text.Text = "0000";
-                        Okno_Błędu.Text = "WARTOŚCI ZAPISZ W SYSTEMIE SZESNASTKOWYM";
+                        Okno_Błędu.Text = "WYMAGANY SYSTEM SZESNASTKOWY";
 
                     }
                 }
             if (CheckChars == true)
             {
-                string Wartosc;
-                Wartosc = AX_Text.Text;
+                string Temp;
+                Temp = AX_Text.Text;
                 AX_Text.Text = DX_Text.Text;
-                DX_Text.Text = Wartosc;
-                Okno_Błędu.Text = "Brak bledu";
+                DX_Text.Text = Temp;
+                Okno_Błędu.Text = "BRAK BŁĘDÓW";
             }
         }
 
@@ -372,7 +372,7 @@ namespace Projetk1
                     if (!CharsArray.Contains(Char_Test))
                     {
                         BX_Text.Text = "0000";
-                        Okno_Błędu.Text = "WARTOŚCI ZAPISZ W SYSTEMIE SZESNASTKOWYM";
+                        Okno_Błędu.Text = "WYMAGANY SYSTEM SZESNASTKOWY";
                         CheckChars = false;
 
                     }
@@ -380,17 +380,17 @@ namespace Projetk1
                     {
                         CheckChars = false;
                         AX_Text.Text = "0000";
-                        Okno_Błędu.Text = "WARTOŚCI ZAPISZ W SYSTEMIE SZESNASTKOWYM";
+                        Okno_Błędu.Text = "WYMAGANY SYSTEM SZESNASTKOWY";
 
                     }
                 }
             if (CheckChars == true)
             {
-                string Wartosc;
-                Wartosc = BX_Text.Text;
+                string Temp;
+                Temp = BX_Text.Text;
                 BX_Text.Text = AX_Text.Text;
-                AX_Text.Text = Wartosc;
-                Okno_Błędu.Text = "Brak bledu";
+                AX_Text.Text = Temp;
+                Okno_Błędu.Text = "BRAK BŁĘDÓW";
             }
         }
 
@@ -404,7 +404,7 @@ namespace Projetk1
                     if (!CharsArray.Contains(Char_Test))
                     {
                         BX_Text.Text = "0000";
-                        Okno_Błędu.Text = "WARTOŚCI ZAPISZ W SYSTEMIE SZESNASTKOWYM";
+                        Okno_Błędu.Text = "WYMAGANY SYSTEM SZESNASTKOWY";
                         CheckChars = false;
 
                     }
@@ -412,17 +412,17 @@ namespace Projetk1
                     {
                         CheckChars = false;
                         CX_Text.Text = "0000";
-                        Okno_Błędu.Text = "WARTOŚCI ZAPISZ W SYSTEMIE SZESNASTKOWYM";
+                        Okno_Błędu.Text = "WYMAGANY SYSTEM SZESNASTKOWY";
 
                     }
                 }
             if (CheckChars == true)
             {
-                string Wartosc;
-                Wartosc = BX_Text.Text;
+                string Temp;
+                Temp = BX_Text.Text;
                 BX_Text.Text = CX_Text.Text;
-                CX_Text.Text = Wartosc;
-                Okno_Błędu.Text = "Brak bledu";
+                CX_Text.Text = Temp;
+                Okno_Błędu.Text = "BRAK BŁĘDÓW";
             }
         }
 
@@ -436,7 +436,7 @@ namespace Projetk1
                     if (!CharsArray.Contains(Char_Test))
                     {
                         BX_Text.Text = "0000";
-                        Okno_Błędu.Text = "WARTOŚCI ZAPISZ W SYSTEMIE SZESNASTKOWYM";
+                        Okno_Błędu.Text = "WYMAGANY SYSTEM SZESNASTKOWY";
                         CheckChars = false;
 
                     }
@@ -444,17 +444,17 @@ namespace Projetk1
                     {
                         CheckChars = false;
                         DX_Text.Text = "0000";
-                        Okno_Błędu.Text = "WARTOŚCI ZAPISZ W SYSTEMIE SZESNASTKOWYM";
+                        Okno_Błędu.Text = "WYMAGANY SYSTEM SZESNASTKOWY";
 
                     }
                 }
             if (CheckChars == true)
             {
-                string Wartosc;
-                Wartosc = BX_Text.Text;
+                string Temp;
+                Temp = BX_Text.Text;
                 BX_Text.Text = DX_Text.Text;
-                DX_Text.Text = Wartosc;
-                Okno_Błędu.Text = "Brak bledu";
+                DX_Text.Text = Temp;
+                Okno_Błędu.Text = "BRAK BŁĘDÓW";
             }
         }
 
@@ -468,7 +468,7 @@ namespace Projetk1
                     if (!CharsArray.Contains(Char_Test))
                     {
                         CX_Text.Text = "0000";
-                        Okno_Błędu.Text = "WARTOŚCI ZAPISZ W SYSTEMIE SZESNASTKOWYM";
+                        Okno_Błędu.Text = "WYMAGANY SYSTEM SZESNASTKOWY";
                         CheckChars = false;
 
                     }
@@ -476,17 +476,17 @@ namespace Projetk1
                     {
                         CheckChars = false;
                         AX_Text.Text = "0000";
-                        Okno_Błędu.Text = "WARTOŚCI ZAPISZ W SYSTEMIE SZESNASTKOWYM";
+                        Okno_Błędu.Text = "WYMAGANY SYSTEM SZESNASTKOWY";
 
                     }
                 }
             if (CheckChars == true)
             {
-                string Wartosc;
-                Wartosc = CX_Text.Text;
+                string Temp;
+                Temp = CX_Text.Text;
                 CX_Text.Text = AX_Text.Text;
-                AX_Text.Text = Wartosc;
-                Okno_Błędu.Text = "Brak bledu";
+                AX_Text.Text = Temp;
+                Okno_Błędu.Text = "BRAK BŁĘDÓW";
             }
         }
 
@@ -500,7 +500,7 @@ namespace Projetk1
                     if (!CharsArray.Contains(Char_Test))
                     {
                         CX_Text.Text = "0000";
-                        Okno_Błędu.Text = "WARTOŚCI ZAPISZ W SYSTEMIE SZESNASTKOWYM";
+                        Okno_Błędu.Text = "WYMAGANY SYSTEM SZESNASTKOWY";
                         CheckChars = false;
 
                     }
@@ -508,17 +508,17 @@ namespace Projetk1
                     {
                         CheckChars = false;
                         BX_Text.Text = "0000";
-                        Okno_Błędu.Text = "WARTOŚCI ZAPISZ W SYSTEMIE SZESNASTKOWYM";
+                        Okno_Błędu.Text = "WYMAGANY SYSTEM SZESNASTKOWY";
 
                     }
                 }
             if (CheckChars == true)
             {
-                string Wartosc;
-                Wartosc = CX_Text.Text;
+                string Temp;
+                Temp = CX_Text.Text;
                 CX_Text.Text = BX_Text.Text;
-                BX_Text.Text = Wartosc;
-                Okno_Błędu.Text = "Brak bledu";
+                BX_Text.Text = Temp;
+                Okno_Błędu.Text = "BRAK BŁĘDÓW";
             }
         }
 
@@ -532,7 +532,7 @@ namespace Projetk1
                     if (!CharsArray.Contains(Char_Test))
                     {
                         CX_Text.Text = "0000";
-                        Okno_Błędu.Text = "WARTOŚCI ZAPISZ W SYSTEMIE SZESNASTKOWYM";
+                        Okno_Błędu.Text = "WYMAGANY SYSTEM SZESNASTKOWY";
                         CheckChars = false;
 
                     }
@@ -540,17 +540,17 @@ namespace Projetk1
                     {
                         CheckChars = false;
                         DX_Text.Text = "0000";
-                        Okno_Błędu.Text = "WARTOŚCI ZAPISZ W SYSTEMIE SZESNASTKOWYM";
+                        Okno_Błędu.Text = "WYMAGANY SYSTEM SZESNASTKOWY";
 
                     }
                 }
             if (CheckChars == true)
             {
-                string Wartosc;
-                Wartosc = CX_Text.Text;
+                string Temp;
+                Temp = CX_Text.Text;
                 CX_Text.Text = DX_Text.Text;
-                DX_Text.Text = Wartosc;
-                Okno_Błędu.Text = "Brak bledu";
+                DX_Text.Text = Temp;
+                Okno_Błędu.Text = "BRAK BŁĘDÓW";
             }
         }
 
@@ -564,7 +564,7 @@ namespace Projetk1
                     if (!CharsArray.Contains(Char_Test))
                     {
                         DX_Text.Text = "0000";
-                        Okno_Błędu.Text = "WARTOŚCI ZAPISZ W SYSTEMIE SZESNASTKOWYM";
+                        Okno_Błędu.Text = "WYMAGANY SYSTEM SZESNASTKOWY";
                         CheckChars = false;
 
                     }
@@ -572,17 +572,17 @@ namespace Projetk1
                     {
                         CheckChars = false;
                         AX_Text.Text = "0000";
-                        Okno_Błędu.Text = "WARTOŚCI ZAPISZ W SYSTEMIE SZESNASTKOWYM";
+                        Okno_Błędu.Text = "WYMAGANY SYSTEM SZESNASTKOWY";
 
                     }
                 }
             if (CheckChars == true)
             {
-                string Wartosc;
-                Wartosc = DX_Text.Text;
+                string Temp;
+                Temp = DX_Text.Text;
                 DX_Text.Text = AX_Text.Text;
-                AX_Text.Text = Wartosc;
-                Okno_Błędu.Text = "Brak bledu";
+                AX_Text.Text = Temp;
+                Okno_Błędu.Text = "BRAK BŁĘDÓW";
             }
         }
 
@@ -596,7 +596,7 @@ namespace Projetk1
                     if (!CharsArray.Contains(Char_Test))
                     {
                         DX_Text.Text = "0000";
-                        Okno_Błędu.Text = "WARTOŚCI ZAPISZ W SYSTEMIE SZESNASTKOWYM";
+                        Okno_Błędu.Text = "WYMAGANY SYSTEM SZESNASTKOWY";
                         CheckChars = false;
 
                     }
@@ -604,17 +604,17 @@ namespace Projetk1
                     {
                         CheckChars = false;
                         BX_Text.Text = "0000";
-                        Okno_Błędu.Text = "WARTOŚCI ZAPISZ W SYSTEMIE SZESNASTKOWYM";
+                        Okno_Błędu.Text = "WYMAGANY SYSTEM SZESNASTKOWY";
 
                     }
                 }
             if (CheckChars == true)
             {
-                string Wartosc;
-                Wartosc = DX_Text.Text;
+                string Temp;
+                Temp = DX_Text.Text;
                 DX_Text.Text = BX_Text.Text;
-                BX_Text.Text = Wartosc;
-                Okno_Błędu.Text = "Brak bledu";
+                BX_Text.Text = Temp;
+                Okno_Błędu.Text = "BRAK BŁĘDÓW";
             }
         }
 
@@ -628,7 +628,7 @@ namespace Projetk1
                     if (!CharsArray.Contains(Char_Test))
                     {
                         DX_Text.Text = "0000";
-                        Okno_Błędu.Text = "WARTOŚCI ZAPISZ W SYSTEMIE SZESNASTKOWYM";
+                        Okno_Błędu.Text = "WYMAGANY SYSTEM SZESNASTKOWY";
                         CheckChars = false;
 
                     }
@@ -636,17 +636,17 @@ namespace Projetk1
                     {
                         CheckChars = false;
                         CX_Text.Text = "0000";
-                        Okno_Błędu.Text = "WARTOŚCI ZAPISZ W SYSTEMIE SZESNASTKOWYM";
+                        Okno_Błędu.Text = "WYMAGANY SYSTEM SZESNASTKOWY";
 
                     }
                 }
             if (CheckChars == true)
             {
-                string Wartosc;
-                Wartosc = DX_Text.Text;
+                string Temp;
+                Temp = DX_Text.Text;
                 DX_Text.Text = CX_Text.Text;
-                CX_Text.Text = Wartosc;
-                Okno_Błędu.Text = "Brak bledu";
+                CX_Text.Text = Temp;
+                Okno_Błędu.Text = "BRAK BŁĘDÓW";
             }
         }
     }
