@@ -51,6 +51,14 @@ namespace Projetk1
             this.XCHG_AX_CX = new System.Windows.Forms.Button();
             this.XCHG_AX_DX = new System.Windows.Forms.Button();
             this.XCHG_BX_AX = new System.Windows.Forms.Button();
+            this.XCHG_BX_CX = new System.Windows.Forms.Button();
+            this.XCHG_BX_DX = new System.Windows.Forms.Button();
+            this.XCHG_CX_AX = new System.Windows.Forms.Button();
+            this.XCHG_CX_BX = new System.Windows.Forms.Button();
+            this.XCHG_CX_DX = new System.Windows.Forms.Button();
+            this.XCHG_DX_AX = new System.Windows.Forms.Button();
+            this.XCHG_DX_BX = new System.Windows.Forms.Button();
+            this.XCHG_DX_CX = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -257,12 +265,101 @@ namespace Projetk1
             this.XCHG_BX_AX.TabIndex = 21;
             this.XCHG_BX_AX.Text = "XCHG BX, AX";
             this.XCHG_BX_AX.UseVisualStyleBackColor = true;
+            this.XCHG_BX_AX.Click += new System.EventHandler(this.XCHG_BX_AX_Click);
+            // 
+            // XCHG_BX_CX
+            // 
+            this.XCHG_BX_CX.Location = new System.Drawing.Point(215, 417);
+            this.XCHG_BX_CX.Name = "XCHG_BX_CX";
+            this.XCHG_BX_CX.Size = new System.Drawing.Size(195, 29);
+            this.XCHG_BX_CX.TabIndex = 22;
+            this.XCHG_BX_CX.Text = "XCHG BX, CX";
+            this.XCHG_BX_CX.UseVisualStyleBackColor = true;
+            this.XCHG_BX_CX.Click += new System.EventHandler(this.XCHG_BX_CX_Click);
+            // 
+            // XCHG_BX_DX
+            // 
+            this.XCHG_BX_DX.Location = new System.Drawing.Point(215, 453);
+            this.XCHG_BX_DX.Name = "XCHG_BX_DX";
+            this.XCHG_BX_DX.Size = new System.Drawing.Size(195, 29);
+            this.XCHG_BX_DX.TabIndex = 23;
+            this.XCHG_BX_DX.Text = "XCHG BX, DX";
+            this.XCHG_BX_DX.UseVisualStyleBackColor = true;
+            this.XCHG_BX_DX.Click += new System.EventHandler(this.XCHG_BX_DX_Click);
+            // 
+            // XCHG_CX_AX
+            // 
+            this.XCHG_CX_AX.Location = new System.Drawing.Point(216, 487);
+            this.XCHG_CX_AX.Name = "XCHG_CX_AX";
+            this.XCHG_CX_AX.Size = new System.Drawing.Size(194, 29);
+            this.XCHG_CX_AX.TabIndex = 24;
+            this.XCHG_CX_AX.Text = "XCHG CX, AX";
+            this.XCHG_CX_AX.UseVisualStyleBackColor = true;
+            this.XCHG_CX_AX.Click += new System.EventHandler(this.XCHG_CX_AX_Click);
+            // 
+            // XCHG_CX_BX
+            // 
+            this.XCHG_CX_BX.Location = new System.Drawing.Point(216, 523);
+            this.XCHG_CX_BX.Name = "XCHG_CX_BX";
+            this.XCHG_CX_BX.Size = new System.Drawing.Size(194, 29);
+            this.XCHG_CX_BX.TabIndex = 25;
+            this.XCHG_CX_BX.Text = "XCHG CX, BX";
+            this.XCHG_CX_BX.UseVisualStyleBackColor = true;
+            this.XCHG_CX_BX.Click += new System.EventHandler(this.XCHG_CX_BX_Click);
+            // 
+            // XCHG_CX_DX
+            // 
+            this.XCHG_CX_DX.Location = new System.Drawing.Point(215, 559);
+            this.XCHG_CX_DX.Name = "XCHG_CX_DX";
+            this.XCHG_CX_DX.Size = new System.Drawing.Size(195, 29);
+            this.XCHG_CX_DX.TabIndex = 26;
+            this.XCHG_CX_DX.Text = "XCHG CX, DX";
+            this.XCHG_CX_DX.UseVisualStyleBackColor = true;
+            this.XCHG_CX_DX.Click += new System.EventHandler(this.XCHG_CX_DX_Click);
+            // 
+            // XCHG_DX_AX
+            // 
+            this.XCHG_DX_AX.Location = new System.Drawing.Point(216, 593);
+            this.XCHG_DX_AX.Name = "XCHG_DX_AX";
+            this.XCHG_DX_AX.Size = new System.Drawing.Size(194, 29);
+            this.XCHG_DX_AX.TabIndex = 27;
+            this.XCHG_DX_AX.Text = "XCHG DX, AX";
+            this.XCHG_DX_AX.UseVisualStyleBackColor = true;
+            this.XCHG_DX_AX.Click += new System.EventHandler(this.XCHG_DX_AX_Click);
+            // 
+            // XCHG_DX_BX
+            // 
+            this.XCHG_DX_BX.Location = new System.Drawing.Point(213, 629);
+            this.XCHG_DX_BX.Name = "XCHG_DX_BX";
+            this.XCHG_DX_BX.Size = new System.Drawing.Size(197, 29);
+            this.XCHG_DX_BX.TabIndex = 28;
+            this.XCHG_DX_BX.Text = "XCHG DX, BX";
+            this.XCHG_DX_BX.UseVisualStyleBackColor = true;
+            this.XCHG_DX_BX.Click += new System.EventHandler(this.XCHG_DX_BX_Click);
+            // 
+            // XCHG_DX_CX
+            // 
+            this.XCHG_DX_CX.Location = new System.Drawing.Point(213, 664);
+            this.XCHG_DX_CX.Name = "XCHG_DX_CX";
+            this.XCHG_DX_CX.Size = new System.Drawing.Size(197, 29);
+            this.XCHG_DX_CX.TabIndex = 29;
+            this.XCHG_DX_CX.Text = "XCHG DX, CX";
+            this.XCHG_DX_CX.UseVisualStyleBackColor = true;
+            this.XCHG_DX_CX.Click += new System.EventHandler(this.XCHG_DX_CX_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1799, 809);
+            this.ClientSize = new System.Drawing.Size(939, 809);
+            this.Controls.Add(this.XCHG_DX_CX);
+            this.Controls.Add(this.XCHG_DX_BX);
+            this.Controls.Add(this.XCHG_DX_AX);
+            this.Controls.Add(this.XCHG_CX_DX);
+            this.Controls.Add(this.XCHG_CX_BX);
+            this.Controls.Add(this.XCHG_CX_AX);
+            this.Controls.Add(this.XCHG_BX_DX);
+            this.Controls.Add(this.XCHG_BX_CX);
             this.Controls.Add(this.XCHG_BX_AX);
             this.Controls.Add(this.XCHG_AX_DX);
             this.Controls.Add(this.XCHG_AX_CX);
@@ -316,6 +413,14 @@ namespace Projetk1
         private System.Windows.Forms.Button XCHG_AX_CX;
         private System.Windows.Forms.Button XCHG_AX_DX;
         private System.Windows.Forms.Button XCHG_BX_AX;
+        private System.Windows.Forms.Button XCHG_BX_CX;
+        private System.Windows.Forms.Button XCHG_BX_DX;
+        private System.Windows.Forms.Button XCHG_CX_AX;
+        private System.Windows.Forms.Button XCHG_CX_BX;
+        private System.Windows.Forms.Button XCHG_CX_DX;
+        private System.Windows.Forms.Button XCHG_DX_AX;
+        private System.Windows.Forms.Button XCHG_DX_BX;
+        private System.Windows.Forms.Button XCHG_DX_CX;
     }
 }
 
